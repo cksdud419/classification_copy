@@ -30,13 +30,13 @@
         overflow: hidden;
       }
       #canvas-container {
-        width: 100%;
-        height: 100%;
-      }
-      canvas {
-        display: block;
-        width: 100%;
-        height: auto;
+        transform-origin: top left;
+        transform: scale(
+          min(
+            calc(100vw / 320),
+            calc(100vh / 480)
+          )
+        );
       }
     </style>
   </head>
