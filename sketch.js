@@ -25,7 +25,7 @@ function preload(){
 
 function setup() {
   //createCanvas(640, 480);
-  createCanvas(375, 500);
+  createCanvas(360, 480);
   //createCanvas(320, 240);
   //createCanvas(240, 320);
   //createCanvas(320, 480);
