@@ -7,44 +7,10 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8" />
 
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-      }
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-      }
-      #canvas-container {
-        transform-origin: top left;
-        transform: scale(
-          min(
-            calc(100vw / 320),
-            calc(100vh / 480)
-          )
-        );
-      }
-    </style>
   </head>
   <body>
     <main>
-      <div id="canvas-container">
-        <script src="sketch.js"></script>
-      </div>
     </main>
+    <script src="sketch.js"></script>
   </body>
 </html>
